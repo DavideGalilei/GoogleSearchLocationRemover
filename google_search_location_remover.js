@@ -12,6 +12,6 @@
 (function() {
     'use strict';
 
-    let x = document.getElementById("footcnt");
-    x.firstElementChild.firstElementChild.firstElementChild.remove();
+    let x = document.getElementById("sfooter");
+    x.remove();
 })();
